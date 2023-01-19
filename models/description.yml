@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: CocaCola_DB # this is the source_name
+    database: DV_Demo
+    schema: dbo
+
+    tables:
+      - name: Customers_DB_1 # this is the table_name
+      - name: Customers_DB_2

@@ -14,4 +14,4 @@ SELECT  [Customer Code]
       ,[Region]
       ,[RSM]
       ,[Discount]
-  FROM [DV_Demo].[dbo].[Customers_DB_1]
+  FROM {{ source('CocaCola_DB', 'Customers_DB_1') }}
